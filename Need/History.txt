@@ -5,3 +5,4 @@ ver 24.3 | Firts version
   Hide the program by pressing the 'Ẩn chương trình' button on the menu bar / ẩn chương trình bằng cách nhất nút 'ẩn chuong trình' trên thanh menu
   There is an introduction window / có cửa sổ giới thiệu
   Change color automatically every second / Thay đổi màu sác tự động mỗi giây
+  Click and hold inside the window to move / bấm và giữ bên trong cửa sổ để di chuyển
