@@ -1,1 +1,7 @@
-24.3
+ver 24.3 | Firts version 
+  Support for Windows 10/11 x64 / Hỗ trợ cho Windows 10/11 64bit
+  'tit' Sound / Âm thanh 'tít'
+  Check for Update in file menu 'Trợ Giúp' / kiểm tra cập nhật trong tệp menu 'Trợ Giúp'
+  Hide the program by pressing the 'Ẩn chương trình' button on the menu bar / ẩn chương trình bằng cách nhất nút 'ẩn chuong trình' trên thanh menu
+  There is an introduction window / có cửa sổ giới thiệu
+  Change color automatically every second / Thay đổi màu sác tự động mỗi giây
