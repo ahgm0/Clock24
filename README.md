@@ -1,1 +1,1 @@
-This repository use for Clock product creat by VietAnh
+This repository use for Clock product create by VietAnh
