@@ -1,9 +1,10 @@
-Ver 24.8 | Phiên bản 24.8      (09/08/2024)
+Ver 24.8 | Phiên bản 24.8      (09/08/2024)      *Big Update*
   Hỗ trợ thêm windows 10 32bit             /   Added support for Windows 10 32bit
   Cấu trúc chương trình hoàn toàn mới      /  Completely new program structure
   Cải thiện cách hoạt động âm thanh mới    /  Improved new sound operation
   Sửa một số lỗi                           /  Fixed some bugs
   Hoạt động trên windows không có loa      /  Works on Windows without speakers
+  Cải tiến cách tự sửa lỗi                 /  Improved auto-correction
                                         😄😄😄
 
 ver 24.3 | Firts version 
