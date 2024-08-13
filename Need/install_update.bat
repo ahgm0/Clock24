@@ -16,5 +16,5 @@ if '%errorlevel%' NEQ '0' ( goto UAC
     pushd "%CD%"
     CD /D "%~dp0"
 taskkill /f /im Clock.exe >nul
-move "%temp%\Clock.exe" "C:\Windows\SysWOW64\Clock.exe" >nul
+xcopy "%temp%\Clock.exe" "C:\Windows\SysWOW64\Clock.exe" /y >nul
 start C:\Windows\SysWOW64\Clock.exe >nul
