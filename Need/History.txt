@@ -4,6 +4,7 @@ Ver 24.9 | Phiên bản 24.9      (28/09/2024)      *September Update*
   cải tiến một số thuật toán          /       improved some algorithms
   bản cập nhật tháng 9                /       September update
   **Sửa lỗi chức năng cập nhật        /       Fixed Error Update Function**
+Note: Cần dùng web để tải lại phiên bản mới/Need to use web to download new version
                                     😎😎
 
 
