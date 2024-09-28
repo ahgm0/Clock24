@@ -1,3 +1,11 @@
+Ver 24.9 | Phiên bản 24.9      (28/09/2024)      *September Update*
+  Sửa một số lỗi                      /       Fixed some bugs
+  tạo chữ cô đọng hơn                 /       Created more concise text
+  cải tiến một số thuật toán          /       improved some algorithms
+  bản cập nhật tháng 9                /       September update
+                                    😎😎
+
+
 Ver 24.8 | Phiên bản 24.8      (09/08/2024)      *Big Update*
   Hỗ trợ thêm windows 10 32bit             /   Added support for Windows 10 32bit
   Cải thiện chức năng cập nhật phần mềm    /   Improve software update functionality
