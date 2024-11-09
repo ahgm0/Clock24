@@ -1,3 +1,10 @@
+Ver 24.11 | Phiên bản 24.11     ()           *November Update* (not released yet)
+  Chặn phím Alt+F4          /     Block the key combination Alt+F4
+  Sửa vài đoạn code         /     Fix some code
+.....
+
+
+
 Ver 24.9 | Phiên bản 24.9      (28/09/2024)      *September Update*
   Sửa một số lỗi                      /       Fixed some bugs
   tạo chữ cô đọng hơn                 /       Created more concise text
@@ -20,11 +27,14 @@ Ver 24.8 | Phiên bản 24.8      (09/08/2024)      *Big Update*    !! Error Upd
   Cải tiến cách tự sửa lỗi                 /  Improved auto-correction
                                         😄😄😄
 
+
 ver 24.3 | Firts version 
-  Support for Windows 10/11 x64 / Hỗ trợ cho Windows 10/11 64bit
-  'tit' Sound / Âm thanh 'tít'
-  Check for Update in file menu 'Trợ Giúp' / kiểm tra cập nhật trong tệp menu 'Trợ Giúp'
-  Hide the program by pressing the 'Ẩn chương trình' button on the menu bar / ẩn chương trình bằng cách nhất nút 'ẩn chuong trình' trên thanh menu
-  There is an introduction window / có cửa sổ giới thiệu
-  Change color automatically every second / Thay đổi màu sác tự động mỗi giây
+  Support for Windows 10/11 x64            /     Hỗ trợ cho Windows 10/11 64bit
+  'tit' Sound                              /     Âm thanh 'tít'
+                    """|Check for Update in file menu 'Trợ Giúp'|
+                   |kiểm tra cập nhật trong tệp menu 'Trợ Giúp'|"""
+  """||Hide the program by pressing the 'Ẩn chương trình' button on the menu bar
+    ||ẩn chương trình bằng cách nhất nút 'ẩn chuong trình' trên thanh menu||"""
+  There is an introduction window          /     có cửa sổ giới thiệu
+  Change color automatically every second  / Thay đổi màu sác tự động mỗi giây
   Click and hold inside the window to move / bấm và giữ bên trong cửa sổ để di chuyển
