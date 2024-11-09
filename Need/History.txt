@@ -1,6 +1,7 @@
 Ver 24.11 | Phiên bản 24.11     ()           *November Update* (not released yet)
   Chặn phím Alt+F4          /     Block the key combination Alt+F4
   Sửa vài đoạn code         /     Fix some code
+  Thay đổi trỏ chuột trong Giới Thiệu
 .....
 
 
