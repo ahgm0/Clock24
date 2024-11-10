@@ -1,10 +1,10 @@
 @echo off
->nul 2>&1 "%SYSTEMROOT%\system32\cacls.exe" "%SYSTEMROOT%\system32\config\system"
+if '%errorlevel%' NEQ '0' (
+    goto goUAC 
+) else (
+ goto goADMIN )
 
-if '%errorlevel%' NEQ '0' ( goto UAC
-) else ( goto goAdmin )
-
-:UAC
+:goUAC
     echo Set UAC = CreateObject^("Shell.Application"^) > "%temp%\getadmin.vbs"
     set params = %*:"=""
     echo UAC.ShellExecute "cmd.exe", "/c %~s0 %params%", "", "runas", 1 >> "%temp%\getadmin.vbs"
@@ -12,11 +12,9 @@ if '%errorlevel%' NEQ '0' ( goto UAC
     del "%temp%\getadmin.vbs"
     exit /B
 
-:goAdmin
+:goADMIN
     pushd "%CD%"
     CD /D "%~dp0"
-
 taskkill /f /im Clock.exe >nul
-xcopy "%temp%\Clock.exe" "%systemroot%\SysWOW64\Clock.exe" /y >nul
-start %systemroot%\SysWOW64\Clock.exe >nul
-exit >nul
+move "%temp%\Clock.exe" "%systemroot%\SysWOW64\Clock.exe"
+start %systemroot%\SysWOW64\Clock.exe
