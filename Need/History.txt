@@ -1,12 +1,12 @@
-Ver 24.11 | Phiên bản 24.11     ()           *November Update* (not released yet)
-  Chặn phím Alt+F4          /     Block the key combination Alt+F4
-  Sửa vài đoạn code         /     Fix some code
-  Thay đổi trỏ chuột trong Giới Thiệu
-.....
+Ver 24.91 | Phiên bản 24.91     (10/11/2024)      *November Update*   (Current version)
+  Chặn phím Alt+F4                /     Block the key combination Alt+F4
+  Thay đổi trỏ chuột              /     Change the cursor
+  Cải thiện chức năng update      /     Improved update function
+  Sửa vài đoạn code               /     Fix some code
+                                😁😁
 
 
-
-Ver 24.9 | Phiên bản 24.9      (28/09/2024)      *September Update*  (Current version)
+Ver 24.9 | Phiên bản 24.9      (28/09/2024)      *September Update*
   Sửa một số lỗi                      /       Fixed some bugs
   tạo chữ cô đọng hơn                 /       Created more concise text
   cải tiến một số thuật toán          /       improved some algorithms
