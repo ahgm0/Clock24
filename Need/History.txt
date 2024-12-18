@@ -1,4 +1,9 @@
-Ver 24.91 | Phiên bản 24.91     (10/11/2024)      *November Update*   (Current version)
+Ver 24.92 | Phiên bản 24.92     (18/11/2024)      *December Update*    (Latest version)
+  Cải thiện một số mã             /    Improve some codes
+  Sử dụng lại một số mã           /    Reuse some codes
+
+
+Ver 24.91 | Phiên bản 24.91     (10/11/2024)      *November Update*   
   Chặn phím Alt+F4                /     Block the key combination Alt+F4
   Thay đổi trỏ chuột              /     Change the cursor
   Cải thiện chức năng update      /     Improved update function
