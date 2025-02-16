@@ -1,15 +1,18 @@
-Ver 25.2  | Phiên bản 25.2      (2/2025)          *February in Code*
-  Cập nhật các thư viện mới        /    Update new library
-  Cập nhật phiên bản Python mới    /    Update new Python version  -> 3.13.1 32bit
+Ver 25.2  | Phiên bản 25.2      (16/2/2025)       *New Year Update*    (Latest current version)
+  Cập nhật các thư viện mới        /    Update new library 👌
+  Cập nhật phiên bản Python mới    /    Update new Python version  -> 3.13.1 32bit👌
   Thêm ngôn ngữ                    /    Added Languages -> (vi, en)
   Thêm định dạng ngày              /    Added day format
   Thêm biểu tượng ngẫu nhiên       /    Added random icon
+                  |Thay đổi tần số và thời gian âm thanh|
+                    |Changed Beep frequency and sound|
   Tối ưu một số thuật toán         /    Optimized some algorithms
+  Đổi một số phông chữ             /    Changed some font
   Sửa lại một số lỗi nhỏ           /    Bug fixed
                                  😉😃
 
 
-Ver 24.92 | Phiên bản 24.92     (18/11/2024)      *December Update*    (Latest version)
+Ver 24.92 | Phiên bản 24.92     (18/11/2024)      *December Update*
   Cải thiện một số mã             /    Improve some codes
   Sử dụng lại một số mã           /    Reuse some codes
 
