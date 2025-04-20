@@ -1,5 +1,5 @@
-Ver 25.4  | Phiên bản 25.4      (20/4/2025)      (Latest current version)
-   Sửa lại một số đoạn mã nhỏ       /    Bug fixed
+Ver 25.45  | Phiên bản 25.45    (20/4/2025)      (Latest current version)
+   Sửa lại lỗi                     /    Bug fixed
 
 Ver 25.4  | Phiên bản 25.4      (19/4/2025)       *Small Update*
   Cập nhật phiên bản Python mới    /    Update new Python version  -> 3.13.2 32bit🐍
