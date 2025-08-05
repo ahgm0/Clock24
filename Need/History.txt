@@ -1,4 +1,14 @@
-Ver 25.45  | Phiên bản 25.45    (20/4/2025)      (Latest current version)
+Ver 25.8   | Phiên Bản 25.8     (05/08/2025)      (Latest current version)
+    Cập nhật phiên bản Python mới  /    Update new Python version  -> 3.13.5 32bit🐍
+    Cập nhật các thư viện mới      /    Update new library 👌
+    Thêm chữ ký kỹ thuật số        /    Add Digital Signatures
+    Thêm cửa sổ trong suốt         /    Add Transparent Window
+    Thêm tiếng tít mỗi khi qua     /    Add New hour to Beep 
+    Giảm thời gian khởi động       /    Reduce start time when computer logon
+    Sửa lại danh sách ngôn ngữ     /    Fix some Languages list
+    Sửa lỗi nhỏ                    /    Fix Bug
+
+Ver 25.45  | Phiên bản 25.45    (20/4/2025)
    Sửa lại lỗi                     /    Bug fixed
 
 Ver 25.4  | Phiên bản 25.4      (19/4/2025)       *Small Update*
