@@ -6,6 +6,7 @@ Ver 25.8   | Phiên Bản 25.8     (05/08/2025)      (Latest current version)
     Thêm tiếng tít mỗi khi qua     /    Add New hour to Beep 
     Giảm thời gian khởi động       /    Reduce start time when computer logon
     Sửa lại danh sách ngôn ngữ     /    Fix some Languages list
+    Khắc phục chức năng Update     /    Fix Update Function
     Sửa lỗi nhỏ                    /    Fix Bug
 
 Ver 25.45  | Phiên bản 25.45    (20/4/2025)
