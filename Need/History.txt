@@ -1,4 +1,7 @@
-Ver 25.8   | Phiên Bản 25.8     (05/08/2025)      (Latest current version)
+Ver 25.81   | Phiên Bản 25.81     (05/08/2025)      (Latest current version)
+    Sửa lỗi nhỏ                    /    Fix Bug
+
+Ver 25.8   | Phiên Bản 25.8     (05/08/2025)
     Cập nhật phiên bản Python mới  /    Update new Python version  -> 3.13.5 32bit🐍
     Cập nhật các thư viện mới      /    Update new library 👌
     Thêm chữ ký kỹ thuật số        /    Add Digital Signatures
